@@ -23,7 +23,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(DemoApplication.class, args);
 		
-        System.out.println("Beans provided by Spring Boot:");
+        System.out.println("Beans provided by Spring Boot(1):");
 
         String[] beanNames = ctx.getBeanDefinitionNames();
         Arrays.sort(beanNames);
